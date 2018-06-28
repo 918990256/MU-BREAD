@@ -1,0 +1,283 @@
+@import url('base.css');
+/* 头部 */
+header{
+	position: relative;
+	width: 100%;
+	height: 76px;
+	box-shadow: 0px 1px 10px #ccc;
+	background: #fff;
+}
+.headM{
+	width: 1020px;
+	height: 76px;
+	margin: 0 auto;
+}
+.hmL{
+	width: 400px;
+	height: 76px;
+	float: left;
+}
+.hmL>a>img{
+	width: 100%;
+	height: 100%;
+}
+.hmR{
+	width: auto;
+	height: 76px;
+	float: right;
+}
+.hmR>li{
+	float: left;
+}
+.hmR>li>a{
+	display: block;
+	height: 76px;
+	padding: 0 25px;
+	font-size: 14px;
+	line-height: 76px;
+	color: #000;
+}
+.hmR>li>a:hover{
+	color: #db5500;
+}
+/* 导航 */
+nav{
+	width: 100%;
+	height: 60px;
+}
+.navM{
+	width: 1020px;
+	height: 60px;
+	margin: 0 auto;
+}
+.navM>li{
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 60px;
+}
+.navM>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 14px;
+	color: #666;
+}
+.nav-first{
+	font-weight: bold;
+}
+.navM>li>a:hover{
+	color: #db5500;
+}
+.nav-top{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	transition: top 1s;
+	background: #f7f7f7;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+	border-bottom: 1px solid #dadada;
+}
+.navBox{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	border-radius: 5px;
+	background: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	width: 160px;
+	height: 0;
+	z-index: 100;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	/* display: none; */
+}
+.navBox>a{
+	display: block;
+	line-height: 30px;
+	color: #666;
+	padding-left: 20px;
+}
+.navBox>a:hover{
+	color: #db5500;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 358px;
+}
+/* 内容 */
+section{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.contentM{
+	position: relative;
+	width: 1020px;
+	height: auto;
+	margin: 0 auto;
+}
+.label{
+	position: absolute;
+	top: -99px;
+	width: 281px;
+	height: 163px;
+	background: url('../img/about/label.png') no-repeat;
+}
+.label>h1{
+	width: 136px;
+	height: 33px;
+	font-size: 26px;
+	text-align: center;
+	line-height: 33px;
+	margin-top: 50px;
+	color: #fff;
+	font-weight: bold;
+}
+.label>span{
+	display: block;
+	width: 136px;
+	height: 11px;
+	font-size: 10px;
+	text-align: center;
+	line-height: 11px;
+	margin-top: 5px;
+	color: #e29391;
+}
+
+/* 故事 */
+.story{
+	width: 100%;
+	height: auto;
+	padding-top: 60px;
+}
+.img1{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.img1>img{
+	width: 551px;
+	height: 299px;
+	margin: 0 auto;
+}
+.img2{
+	width: 100%;
+	height: auto;
+}
+.img2>img{
+	width: 458px;
+	height: 437px;
+	margin: 0 auto;
+}
+/* 底部导航 */
+.footNav{
+	width: 100%;
+	height: auto;
+	margin: 50px 0 0;	
+	background: url('../img/bg2.png') no-repeat #fff ;
+}
+.footNavM{
+	width: 1020px;
+	height: auto;
+	margin: 0 auto;
+}
+.foot-nav{
+	width: 100%;
+	height: auto;
+	padding: 20px 0 0;
+	display: flex;
+	justify-content: space-around;
+}
+.foot-nav>li{
+	float: left;
+	width: 165px;
+	height: 250px;
+	text-align: center;
+}
+.foot-nav>li>h3{
+	font-size: 14px;
+	font-weight: bold;
+	color: #646464;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+.foot-nav>li>h4{
+	font-size: 12px;
+	line-height: 30px;
+}
+.foot-nav>li>h4>a{	
+	color: #626262
+}
+.foot-nav>li>h4>a:hover{
+	color: #db5500;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+}
+.ftM{
+	width: 1020px;
+	height: 120px;
+	margin: 0 auto;
+}
+.ftL{
+	float: left;
+	width: 350px;
+	height: auto;
+	font-size: 14px;
+	line-height: 30px;
+	color: #666;
+}
+.ftL>span{
+	display: block;
+}
+.police{
+	height: 20px;
+	margin-top: 5px;
+}
+.police>img{
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.police>a{
+	float: left;
+	padding: 0 0 0 10px;
+	color: #939393;
+	line-height: 20px;
+}
+.ftC{
+	float: left;
+	width: 230px;
+	height: 120px;
+	margin: 0 0 0 35px;
+	background: url('../img/foot1.png') center no-repeat;
+}
+.ftR{
+	width: 230px;
+	height: 120px;
+	float: right;
+	background: url('../img/foot2.png') center no-repeat;
+}
+/* 返回顶部 */
+.scroll-top{
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	width: 54px;
+	height: 54px;
+	background: url('../img/backTop.png') no-repeat;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	display: none;
+}
